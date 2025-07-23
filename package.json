@@ -1,6 +1,6 @@
 {
   "name": "react-elfsight-reviews",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "A lightweight React component to embed Elfsight Google Reviews widgets with lazy script loading and one-time injection.",
   "main": "dist/index.js",
   "module": "dist/index.js",
