@@ -30,6 +30,7 @@ git push origin main --tags
 
 # Step 5: Publish to NPM
 echo "📤 Publishing to NPM..."
+npm run build
 npm publish --access public
 
 echo "✅ Published version $VERSION to NPM and pushed tag $GIT_TAG."
