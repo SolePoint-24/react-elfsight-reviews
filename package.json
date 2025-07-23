@@ -1,0 +1,50 @@
+{
+  "name": "react-elfsight-reviews",
+  "version": "0.0.0",
+  "description": "A lightweight React component to embed Elfsight Google Reviews widgets with lazy script loading and one-time injection.",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "clean": "rm -rf dist",
+    "release:patch": "bash ./scripts/release.sh patch",
+    "release:minor": "bash ./scripts/release.sh minor",
+    "release:major": "bash ./scripts/release.sh major",
+    "publish:npm": "npm publish --access public"
+  },
+  "keywords": [
+    "react",
+    "google-reviews",
+    "widget",
+    "elfsight",
+    "reviews",
+    "lazy-load",
+    "embed",
+    "react-component"
+  ],
+  "author": "Solepoint Tech Solutions",
+  "peerDependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "@ianvs/prettier-plugin-sort-imports": "^4.5.1",
+    "@types/node": "^24.0.14",
+    "@types/react": "^18.0.0",
+    "prettier": "^3.6.2",
+    "typescript": "^5.8.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SolePoint-24/react-elfsight-reviews.git"
+  },
+  "homepage": "https://github.com/SolePoint-24/react-elfsight-reviews",
+  "bugs": {
+    "url": "https://github.com/SolePoint-24/react-elfsight-reviews/issues"
+  },
+  "sideEffects": false
+}
